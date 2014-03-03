@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/dialog_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="@string/dialog_return_content"
+        android:textSize="@dimen/dialog_return_textsize"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/dialog_clean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/dialog_clean_content"
+        android:textSize="@dimen/dialog_clean_textsize"
+        android:textStyle="bold" />
+
+</RelativeLayout>

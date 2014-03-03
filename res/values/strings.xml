@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Share</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="button_hotspot_content">热点</string>
+    <string name="friendslist_text_content">好友</string>
+    <string name="title_activity_choose_data">ChooseDataActivity</string>
+    <string name="history_btn_content">历史记录</string>
+    <string name="title_activity_dialog_box">DialogBoxActivity</string>
+    <string name="dialog_return_content">返回</string>
+    <string name="dialog_clean_content">清空</string>
+    <string name="send_btn_content">发送</string>
+
+</resources>

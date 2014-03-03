@@ -1,0 +1,56 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="TitleBackgroundColor">
+         <item name="android:background">#00000000</item>
+     </style>
+     <style name="titlestyle" parent="android:Theme" >
+         <item name="android:windowTitleSize">45dip</item>   
+         <item name="android:windowTitleBackgroundStyle">@style/TitleBackgroundColor</item>
+     </style>
+     
+     <style name="DialogUISplit">  
+        <item name="android:textSize">13.0dip</item>  
+        <item name="android:textColor">#ff56616c</item>  
+        <item name="android:gravity">center_horizontal</item>  
+        <item name="android:background">@null</item>  
+        <item name="android:paddingTop">11.0dip</item>  
+        <item name="android:paddingBottom">6.0dip</item>  
+        <item name="android:visibility">gone</item>  
+        <item name="android:layout_width">fill_parent</item>  
+        <item name="android:layout_height">wrap_content</item>  
+          
+    </style>  
+    <style name="DialogUIText">  
+        <item name="android:textSize">15.0dip</item>  
+        <item name="android:textColor">#ff000000</item>  
+        <item name="android:layout_width">wrap_content</item>  
+        <item name="android:layout_height">wrap_content</item>  
+        <item name="android:maxWidth">200.0dip</item>  
+    </style>
+    <style name="dialog_bg_to">
+        <item name="android:background">#66CC33</item>
+    </style>
+    
+        <style name="dialog_bg_from">
+        <item name="android:background">#FFFFFF</item>
+    </style>
+    
+
+</resources>

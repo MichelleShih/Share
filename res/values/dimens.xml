@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="hot_textsize">20dp</dimen>
+    <dimen name="history_textsize">20dp</dimen>
+    <dimen name="friends">20dp</dimen>
+    <dimen name="dialog_clean_textsize">20dp</dimen>
+    <dimen name="dialog_return_textsize">20dp</dimen>
+    <dimen name="btn_height">48dp</dimen>
+
+</resources>

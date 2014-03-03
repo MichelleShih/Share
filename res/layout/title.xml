@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout_title"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/button_hotspot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:minHeight="0dip"
+        android:minWidth="0dip"
+        android:text="@string/button_hotspot_content"
+        android:textSize="@dimen/hot_textsize"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/button_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button_hotspot"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:height="@dimen/btn_height"
+        android:minHeight="0dip"
+        android:minWidth="0dip"
+        android:text="@string/history_btn_content"
+        android:textSize="@dimen/history_textsize"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_history"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="135dp"
+        android:layout_toLeftOf="@+id/friendslist" />
+
+    <TextView
+        android:id="@+id/friendslist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_hotspot"
+        android:layout_alignBottom="@+id/button_hotspot"
+        android:layout_marginRight="80dp"
+        android:layout_toLeftOf="@+id/button_hotspot"
+        android:text="@string/friendslist_text_content"
+        android:textSize="@dimen/friends" />
+
+</RelativeLayout>

@@ -6,37 +6,19 @@
     android:paddingLeft="6.0dip"
     android:paddingRight="6.0dip" >
 
-    <TextView
-        android:id="@+id/chatting_time_tv"
-        style="@style/DialogUISplit"
-        android:visibility="gone" />
+    <TextView 
+    	android:id="@+id/chatting_time_tv" 
+    	style="@style/DialogUISplit" />
 
     <ImageView
-        android:id="@+id/chat_from_image"
+        android:id="@+id/chat_from"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/chat_from_ic" />
-
-    <LinearLayout
-        android:id="@+id/liner_layout"
-        style="@style/DialogUIText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/chatfrom_bg"
-        android:orientation="vertical" >
-
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView" />
-
-        <TextView
-            android:id="@+id/textView1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="2013-9-10 23:05:08" />
-
-    </LinearLayout>
-
+    
+    	 <TextView 
+    	android:id="@+id/chatting_content_itv" 
+    	android:autoLink="web" 
+    	android:background="@drawable/chatfrom_bg" 
+    	style="@style/DialogUIText" />
 </LinearLayout>

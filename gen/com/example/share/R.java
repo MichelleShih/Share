@@ -75,38 +75,41 @@ public final class R {
         public static final int wifisms_insert_pressed_bg=0x7f020025;
     }
     public static final class id {
-        public static final int RelativeLayout1=0x7f09001d;
-        public static final int RelativeLayout_title=0x7f090019;
-        public static final int action_settings=0x7f090020;
+        public static final int RelativeLayout1=0x7f090020;
+        public static final int RelativeLayout_title=0x7f09001c;
+        public static final int action_settings=0x7f090023;
         public static final int btn_link=0x7f090009;
         public static final int btn_send=0x7f090006;
-        public static final int button_history=0x7f09001b;
-        public static final int button_hotspot=0x7f09001a;
+        public static final int button_history=0x7f09001e;
+        public static final int button_hotspot=0x7f09001d;
+        public static final int chat_from=0x7f09000b;
         public static final int chat_from_image=0x7f090007;
-        public static final int chatting_contact_name=0x7f090011;
-        public static final int chatting_contact_status=0x7f090012;
-        public static final int chatting_content_itv=0x7f09000f;
-        public static final int chatting_state_iv=0x7f09000e;
+        public static final int chatting_contact_name=0x7f09000f;
+        public static final int chatting_contact_status=0x7f090010;
+        public static final int chatting_content_itv=0x7f09000c;
+        public static final int chatting_state_iv=0x7f09000d;
         public static final int chatting_time_tv=0x7f09000a;
-        public static final int chatto_image=0x7f090010;
+        public static final int chatto_image=0x7f09000e;
         public static final int dialog=0x7f090000;
-        public static final int dialog_clean=0x7f09001f;
+        public static final int dialog_clean=0x7f090022;
         public static final int dialog_history=0x7f090001;
-        public static final int dialog_return=0x7f09001e;
-        public static final int file_image=0x7f090014;
+        public static final int dialog_return=0x7f090021;
+        public static final int file_image=0x7f090011;
         public static final int file_name=0x7f090008;
-        public static final int file_size=0x7f090015;
-        public static final int friendslist=0x7f09001c;
+        public static final int file_size=0x7f090012;
+        public static final int friendslist=0x7f09001f;
         public static final int imageView=0x7f090004;
-        public static final int imageView1=0x7f090013;
-        public static final int liner_layout=0x7f09000b;
+        public static final int imageView1=0x7f090017;
         public static final int msg_send_bg=0x7f090002;
-        public static final int send_progressBar=0x7f090018;
+        public static final int send_progressBar=0x7f090015;
         public static final int send_relative=0x7f090003;
-        public static final int send_state=0x7f090017;
-        public static final int send_time=0x7f090016;
-        public static final int textView1=0x7f09000d;
-        public static final int textView3=0x7f09000c;
+        public static final int send_state=0x7f090014;
+        public static final int send_text=0x7f090016;
+        public static final int send_text_to=0x7f09001b;
+        public static final int send_time=0x7f090013;
+        public static final int send_time_text=0x7f090018;
+        public static final int send_time_text_to=0x7f09001a;
+        public static final int textView2=0x7f090019;
         public static final int text_editor=0x7f090005;
     }
     public static final class layout {
@@ -117,8 +120,10 @@ public final class R {
         public static final int chatting_title_bar=0x7f030004;
         public static final int item_file_layout_from=0x7f030005;
         public static final int item_file_layout_to=0x7f030006;
-        public static final int title=0x7f030007;
-        public static final int title_dialog=0x7f030008;
+        public static final int item_text_layout_from=0x7f030007;
+        public static final int item_text_layout_to=0x7f030008;
+        public static final int title=0x7f030009;
+        public static final int title_dialog=0x7f03000a;
     }
     public static final class menu {
         public static final int dialog=0x7f080000;

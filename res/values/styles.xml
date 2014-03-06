@@ -51,6 +51,9 @@
         <style name="dialog_bg_from">
         <item name="android:background">#FFFFFF</item>
     </style>
+        <style name="EditText_bg">
+            <item name="android:textSize">15.0dip</item>
+        </style>
     
 
 </resources>

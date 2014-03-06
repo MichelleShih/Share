@@ -10,18 +10,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:text="@string/dialog_return_content"
-        android:textSize="@dimen/dialog_return_textsize"
-        android:textStyle="bold" />
+        android:background="@drawable/return_btn"
+        android:textSize="@dimen/dialog_return_textsize" />
 
-    <Button
-        android:id="@+id/dialog_clean"
+    <TextView
+        android:id="@+id/username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:text="@string/dialog_clean_content"
-        android:textSize="@dimen/dialog_clean_textsize"
-        android:textStyle="bold" />
+        android:layout_alignBaseline="@+id/dialog_return"
+        android:layout_alignBottom="@+id/dialog_return"
+        android:layout_centerHorizontal="true"
+        android:text="michelle"
+        android:textSize="20sp" />
 
 </RelativeLayout>

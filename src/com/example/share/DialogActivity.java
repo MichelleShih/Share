@@ -8,12 +8,14 @@ import cn.itcast.test.chat.adapter.ChattingAdapter;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 
 public class DialogActivity extends Activity {
@@ -30,20 +32,31 @@ public class DialogActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		
+		//设置title
         requestWindowFeature(Window.FEATURE_CUSTOM_TITLE); // 注意顺序
 		
 		setContentView(R.layout.activity_dialog);
 		getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE,      // 注意顺序
                 R.layout.title_dialog);
 		
+		//在dialog中显示发送消息的历史（dialog history）
 		chatHistoryLv = (ListView) findViewById(R.id.dialog_history);
 		setAdapterForThis();
 		
 		sendBtn = (Button) findViewById(R.id.btn_send);
 		textEditor = (EditText) findViewById(R.id.text_editor);
 		sendBtn.setOnClickListener(l);
-
+		
+		//点击file_imgview实现将隐藏的layout显示出来
+		ImageView imageV = (ImageView) this.findViewById(R.id.file_imgview);
+		imageV.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				LinearLayout file_invisible_btn = (LinearLayout) findViewById(R.id.file_invisible_btn);
+				file_invisible_btn.setVisibility(file_invisible_btn.VISIBLE);
+			}
+		});
 	}
 
 	@Override

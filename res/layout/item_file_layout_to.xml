@@ -23,7 +23,7 @@
             android:orientation="horizontal" >
 
             <ImageView
-                android:id="@+id/file_image"
+                android:id="@+id/file_imgview"
                 android:layout_width="26dp"
                 android:layout_height="match_parent"
                 android:src="@drawable/file_img" />

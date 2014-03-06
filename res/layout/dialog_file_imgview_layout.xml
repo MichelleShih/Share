@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gridlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blue"
+    android:columnCount="2"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="23dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/file_send_ic" />
+
+            <TextView
+                android:id="@+id/image_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="图片" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="23dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/music"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/file_send_ic" />
+
+            <TextView
+                android:id="@+id/music_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="音乐" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="23dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/file_send_ic" />
+
+            <TextView
+                android:id="@+id/video_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="视频" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/file_send_ic" />
+
+            <TextView
+                android:id="@+id/txt_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="文档" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_row="1"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="23dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/app"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/file_send_ic" />
+
+            <TextView
+                android:id="@+id/app_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="应用程序" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="23dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/recieve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/file_send_ic" />
+
+            <TextView
+                android:id="@+id/recieve_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="收件夹" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="23dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/Tel_Rom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/file_send_ic" />
+
+            <TextView
+                android:id="@+id/telRom_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="手机内存" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/SD_Rom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/file_send_ic" />
+
+            <TextView
+                android:id="@+id/sdRom_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="SD卡" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</GridLayout>
